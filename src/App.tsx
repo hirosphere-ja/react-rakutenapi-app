@@ -1,4 +1,4 @@
-import APITest from "./APITest";
+import APITest1 from "./APITest1";
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
         <p className="m-0 text-gray-400">APITestです</p>
       </div>
       <div>
-        <APITest />
+        <APITest1 />
       </div>
     </div>
   );
