@@ -8,6 +8,7 @@ module.exports = {
 		"eslint:recommended",
 		"plugin:react/recommended",
 		"plugin:@typescript-eslint/recommended",
+		"plugin:react-hooks/recommended",
 		'prettier',
 	],
 	parser: "@typescript-eslint/parser",
@@ -27,5 +28,10 @@ module.exports = {
 			'error',
 			{ checkFragmentShorthand: true, warnOnDuplicates: true },
 		],
-	}
+	},
+	settings: {
+    react: {
+      version: "detect"
+    }
+  }
 }
