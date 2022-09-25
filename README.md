@@ -8,4 +8,4 @@ Reactを使ってRakutenAPIに接続して売れ行きトップ9位の書籍を�
 - tailwindcss: v3.1.8
 ## 目次
 1. ### [環境構築手順](SETTING.md)
-2. ### [参考サイト](SETTING.md)
+2. ### [参考サイト](REFERENCE.md)
